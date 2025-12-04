@@ -11,7 +11,11 @@ Some things to note about this setup:
 
 For most of this, just copy this repo into your home directory and change the names of the folders config, fonts, icons, and themes to .config, .fonts, .icons, and .themes . Some components are separate from this repo. Download the following separately:
 * Cursor theme (coming soon)
-* GTK hicolor icon theme
+* GTK hicolor icon theme:
+  * Install the hicolor icon theme
+  * Go to /usr/share/themes/ and copy it into ~/.icons
+  * Copy and paste everything from the 1bit folder into the hicolor theme (replacing files)
+  * rename the hicolor folder to 1bit
 * tint2, openbox (to disable hinting compile), jgmenu, pcmanfm-gtk3 using a package manager
 
-I would recommend compiling openbox without minimum window hinting, especially if you have to deal the awful GTK file select dialog frequently.
+I would recommend compiling openbox without minimum window hinting, especially if you have to deal with the awful GTK file select dialog frequently.
