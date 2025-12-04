@@ -1,0 +1,357 @@
+titlebar, menubar {
+	background-color:black;
+	color:white;	
+	border: 1px solid black;
+}
+titlebar item {
+	padding:1px;
+}
+button {
+	background-color:white;
+	color: black;
+	border:1px solid black;
+	padding:1px;
+}
+button:hover {
+	background-color:black;
+	color:white;
+	padding:1px;
+}
+button:active {
+	background-color:black;
+	color:white;
+	padding:1px;
+	border:1px solid white;
+}
+menuitem {
+	color:white;
+	padding:1px;
+	background-color:black;
+}
+menuitem:hover {
+	border:0px solid white;
+	padding:1px;
+	background-color:white;
+	color:black;
+}
+dropdown, menu {
+	color:black;
+	border:1px solid black;
+	padding:1px;
+}
+.background {
+	color:black;
+	background-color:white;
+}
+selection {
+	color:white;
+	background-color:black;
+}
+scrollbar.vertical {
+	background-color:white;
+	color:black;
+	border: 1px solid black;
+	padding:0px;
+	transition:none;
+}
+scrollbar.horizontal {
+	background-color:white;
+	color:black;
+	padding:0px;
+	transition:none;
+	border: 1px solid black;
+}
+trough {
+	background-color:white;
+	padding:0px;
+}
+toolbar {
+	background-color:white;
+}
+toolbar button {
+	border:none;
+}
+toolbar:hover {
+	border:1px solid black;
+	padding:0px;
+}
+toolbar:active {
+	color:white;
+	background-color:black;
+	padding:0px;
+}
+link {
+	text-decoration-line: underline;
+}
+link:visited {
+	text-decoration-line: underline;
+	color:#00007f;
+}
+tooltip {
+	background-color:white;
+	color:black;
+	border: 1px solid black;
+}
+tab {
+	background-color:white;
+	margin:0px;;
+	color:black;
+	border: 1px solid black;
+}
+tab:active {
+	background-color:black;
+	color:white;
+	border:none;
+}
+tab:hover {
+	background-color:white;
+	color:black;
+	border:1px solid black;
+}
+entry {
+	border:1px solid black;
+	margin:0px;
+	padding:1px;
+}
+entry:hover {
+	color:white;
+	background-color:black;
+	padding:1px;
+}
+separator {
+	background-image:url("../images/bar_vertical.png");
+}
+scrollbar button {
+	padding:1px
+}
+scrollbar button:hover {
+	padding:1px
+}
+slider {
+	padding:2px;
+	background-color:white;
+	border: 1px solid black;
+}
+slider:active {
+	padding:3px;
+	background-color:black;
+	border: 0px solid black;
+}
+calendar {
+	border:1px solid black;
+}
+expander {
+	padding:0px;
+	border:1px solid black;
+}
+notebook {
+	border: 1px solid black;
+}
+headerbar {
+	background-color:white;
+	border-bottom:1px solid white;
+	background-image:url("../images/checker.png");
+	margin:0px;;
+}
+headerbar button {
+	padding:0px;
+}
+headerbar button:active {
+	padding:0px;
+}
+radiobutton, checkbutton {
+	border:1px solid black;
+	padding:0px;
+}
+radiobutton:hover, checkbutton:hover {
+	border:1px solid black;
+	padding:0px;
+}
+radiobutton:active, checkbutton:active {
+	background-color:black;
+	color:white;
+}
+progressbar {
+	border:1px solid black;
+	padding:0px;
+}
+scale {
+	border: 1px solid black;
+	padding:0px;
+}
+togglebutton {
+	background-image:url("../images/arrow.png");
+	padding:0px;
+	border:1px solid black;
+}
+togglebutton:hover {
+	padding:0px;
+	border:1px solid black;
+}
+togglebutton:active {
+	background-color:black;
+	color:white;
+}
+switch {
+	border:solid 1px black;
+	background-image:url("../images/checker.png");
+}
+switch image, switch icon {
+	opacity:0;
+}
+switch slider {
+	padding:0px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+switch slider:disabled {
+	background-image:url("../images/checker.png");
+}
+button.link:active {
+	padding:0px;
+}
+radiobutton:disabled, checkbutton:disabled {
+	border:1px double black;
+}
+notebook label {
+	padding:0px;
+}
+notebook label:hover {
+	border:1px solid black;
+	padding:0px;
+}
+notebook label:active {
+	background-color:black;
+	color:white;
+	padding:0px;
+}
+frame.border-inset {
+	border:1px inset black;
+}
+frame.border-outset {
+	border:1px outset black;
+}
+scrolledwindow {
+	padding:0px;
+	border:1px solid black;
+}
+button.file:active {
+	padding:0px;
+}
+button.font:active {
+	padding:0px;
+}
+button.toggle:active {
+	padding:0px;
+}
+spinbutton.horizontal button:active {
+	background-color:black;
+	padding-left:1px;
+	padding-right:1px;
+}
+spinbutton.vertical button:active {
+	background-color:black;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+label:disabled, entry:disabled, button:disabled, spinbutton:disabled, switch:disabled {
+	background-image:url("../images/checker.png");
+}
+entry.search {
+	padding:0px;
+}
+paned {
+	border:1px solid black;
+}
+toolbar button {
+	padding:0px;
+}
+tab button {
+	border:1px solid black;
+	padding:0px;
+	margin:0px;;
+}
+tab button:hover {
+	border:1px solid black;
+	margin:0px;;
+}
+tab button:active {
+	background-color:black;
+	color:white;
+}
+popover stack {
+	padding:0px;
+	margin:0px;
+	border:1px solid black;
+}
+popover box, menusectionbox {
+	margin:0px;
+	padding:0px;
+}
+toolbar button:disabled {
+	color:black;
+	background-color:white;
+	background-image:none;
+}
+spinner:disabled {
+	opacity:0;
+}
+progress, block.filled {
+	background-color:white;
+}
+modelbutton {
+	padding:0px;
+}
+modelbutton:hover {
+	border:1px solid black;
+	padding:0px;
+}
+modelbutton:active {
+	border:none;
+	padding:0px;
+	background-color:black;
+	color:white;
+}
+arrow {
+	background-image:url("../images/arrow.png");
+	padding-left:1px;
+	padding-right:1px;
+	background-repeat:no-repeat;
+	-gtk-icon-source: none;
+}
+check:checked {
+	-gtk-icon-source: none;
+	background-image:url("../images/check.png");
+	background-repeat:no-repeat;
+}
+radio:checked {
+	-gtk-icon-source: none;
+	background-image:url("../images/radio.png");
+	background-repeat:no-repeat;
+}
+radio:checked:active {
+	background-image:url("../images/radio_active.png");
+	background-repeat:no-repeat;
+}
+check:checked:active {
+	background-image:url("../images/check_active.png");
+	background-repeat:no-repeat;
+}
+check:indeterminate, radio:indeterminate {
+	-gtk-icon-source: none;
+	background-image:url("../images/inconsistent.png");
+	background-repeat:no-repeat;
+}
+check:indeterminate:active, radio:indeterminate:active {
+	-gtk-icon-source: none;
+	background-image:url("../images/inconsistent_active.png");
+	background-repeat:no-repeat;
+}
+:selected {
+	background-color:black;
+	color:white;
+}
+scrollbar button:disabled {
+	background-image: none;
+	background-color:black;
+}
